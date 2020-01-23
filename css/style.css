@@ -180,10 +180,13 @@ body {
     height: 100%;
     width: 59%;
     float: left;
-    z-index: 555;
     object-fit: cover;
     padding-top: 40px;
-    padding-left: 60px;
+}
+
+.nuvolette img {
+    width: 670px;
+    transform: translateX(80px);
 }
 
 .jumbo h1 {
@@ -217,8 +220,8 @@ body {
 .bg-verdeacqua {
     background-color: #0ec1ab;
     height: 90px;
-    border-bottom: 1px solid #354656;
-    border-top: 1px solid #354656;
+    border-bottom: 3px solid #354656;
+    border-top: 3px solid #354656;
 }
 
 /* PRIMO BLOCCO BIANCO*/
