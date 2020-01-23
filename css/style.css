@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* BARRA FISSA */
+.bg-fissa {
+    background-color: #f4f8fb;
+    border-bottom: 1px solid #d0d5db;
+    position: fixed;
+    height: 72px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.bg-fissa .container {
+    height: 72px;
+    line-height: 72px;
+}
+
+.bg-fissa ul {
+    float: left;
+}
+
+.bg-fissa li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.lingua a {
+    text-decoration: none;
+    color: #4d5763;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg-fissa img {
+    width: 16px;
+    transform: translateY(5px);
+}
+
+.icona {
+    float: left;
+}
+
+.bg-fissa .bottoni {
+    float: right;
+}
+
+.bg-fissa button {
+    border: 1px solid #c98f84;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-weight: 600;
+}
+
+#login {
+    background-color: white;
+    color: #c98f84;
+    padding: 9px 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#hubspot {
+    background-color: #ff7a59;
+    color: white;
+}
+
+.bg-fissa i {
+    color: #2396a9;
+}
+
+/* NAVBAR */
+
+.bg-navbar {
+    background-color: white;
+}
+
+.bg-navbar .container {
+    height: 154px;
+}
+
+/* BARRA CTA BLUE */
+
+.bg-barrablue {
+    background-color: #425c77;
+}
+
+.bg-barrablue .container {
+    height: 92px;
+}
+
+/* JUMBOTRON */
+
+.banner {
+    height: 600px;
+    color: #fff4ee;
+}
+
+/* VERDEACQUA */
+
+.bg-verdeacqua {
+    background-color: #0ec1ab;
+    height: 90px;
+    border-bottom: 1px solid #354656;
+    border-top: 1px solid #354656;
+}
+
+/* PRIMO BLOCCO BIANCO*/
+
+.bg-primobianco {
+    background-color: white;
+}
+
+.bg-primobianco .container {
+    height: 1000px;
+}
+
+/* BLOCCO AZZURRO */
+
+.bg-azzurro {
+    background-color: #00b8aa;
+}
+
+.bg-azzurro .container {
+    height: 800px;
+}
+
+/* SECONDO BLOCCO BIANCO*/
+
+.bg-secondobianco {
+    background-color: white;
+}
+
+.bg-secondobianco .container {
+    height: 800px;
+}
+
+/* BLOCCO BLUE */
+
+.bg-blu {
+    background-color: #32475a;
+    height: 700px;
+}
