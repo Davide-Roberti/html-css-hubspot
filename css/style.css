@@ -81,9 +81,10 @@ body {
     margin-left: 20px;
 }
 
-#hubspot {
+.hubspot {
     background-color: #ff7a59;
     color: white;
+    border: 1px solid #c98f84;
 }
 
 .bg-fissa i {
@@ -167,7 +168,38 @@ body {
 
 .banner {
     height: 600px;
-    color: #fff4ee;
+    background-color: #fff4ee;
+}
+
+.banner .jumbo {
+    width: 41%;
+    margin-top: 60px;
+}
+
+.jumbo h1 {
+    padding: 25px 0;
+    color: #32475a;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.jumbo p {
+    line-height: 25px;
+    color: #665d70;
+}
+
+.jumbo button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 27px 48px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.jumbo .sottoparagrafo {
+    font-size: 12px;
+    width: 50%;
+    line-height: 21px;
 }
 
 /* VERDEACQUA */
@@ -182,7 +214,7 @@ body {
 /* PRIMO BLOCCO BIANCO*/
 
 .bg-primobianco {
-    background-color: white;
+    background-color: #f4f8fb;
 }
 
 .bg-primobianco .container {
