@@ -168,16 +168,26 @@ body {
 
 .banner {
     height: 600px;
-    background-color: #fff4ee;
+    background-color: #fff1ee;
 }
 
 .banner .jumbo {
     width: 41%;
-    margin-top: 60px;
+    float: left;
+}
+
+.nuvolette {
+    height: 100%;
+    width: 59%;
+    float: left;
+    z-index: 555;
+    object-fit: cover;
+    padding-top: 40px;
+    padding-left: 60px;
 }
 
 .jumbo h1 {
-    padding: 25px 0;
+    padding: 85px 0 25px;
     color: #32475a;
     font-size: 50px;
     font-weight: 800;
