@@ -32,7 +32,6 @@ body {
 }
 
 .bg-fissa .container {
-    height: 72px;
     line-height: 72px;
 }
 
@@ -94,10 +93,32 @@ body {
 
 .bg-navbar {
     background-color: white;
+    margin-top: 72px;
 }
 
 .bg-navbar .container {
-    height: 154px;
+    line-height: 82px;
+}
+
+.bg-navbar .logo{
+    float: left;
+    transform: translateY(4px);
+}
+
+.bg-navbar li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.bg-navbar .menu {
+    float: right;
+}
+
+.bg-navbar a {
+    text-decoration: none;
+    color: #2e495a;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* BARRA CTA BLUE */
