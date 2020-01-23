@@ -129,7 +129,38 @@ body {
 
 .bg-barrablue .container {
     height: 92px;
+    position: relative;
 }
+
+.bg-barrablue span {
+    font-weight: bold;
+}
+
+.bg-barrablue .paragrafo-cta {
+    width: 85%;
+    float: left;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 0 15px;
+    line-height: 25px;
+}
+
+.bottone-cta button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: white;
+    color: #425c77;
+    padding: 13px 24px;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 1px solid #425c77;
+}
+
 
 /* JUMBOTRON */
 
