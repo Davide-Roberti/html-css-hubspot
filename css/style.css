@@ -649,3 +649,13 @@ footer .supporto {
     border: none;
     font-size: 12px;
 }
+
+footer .lingue {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer .lingue li {
+    display: inline-block;
+    padding: 15px;
+}
