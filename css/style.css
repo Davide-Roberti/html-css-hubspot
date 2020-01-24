@@ -234,6 +234,29 @@ body {
     height: 1000px;
 }
 
+.bg-primobianco .primafascia {
+    text-align: center;
+}
+
+.bg-primobianco .cubi {
+    width: 260px;
+    padding-top: 112px;
+    padding-bottom: 10px;
+}
+
+.bg-primobianco h3 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #32475a;
+    padding-bottom: 20px;
+}
+
+.bg-primobianco .primafascia p {
+    line-height: 25px;
+    color: #72757a;
+    padding: 0 150px;
+}
+
 /* BLOCCO AZZURRO */
 
 .bg-azzurro {
