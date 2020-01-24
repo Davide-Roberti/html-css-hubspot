@@ -433,16 +433,13 @@ body {
 
 .bg-azzurro {
     background-color: #00acb6;
-}
-
-.bg-azzurro .container {
-    height: 800px;
+    padding-bottom: 130px;
 }
 
 .titoloazzurro {
     text-align: center;
     color: white;
-    padding: 125px 210px;
+    padding: 125px 210px 80px;
 }
 
 .titoloazzurro h2 {
@@ -454,6 +451,43 @@ body {
 .titoloazzurro p {
     font-size: 15px;
     line-height: 25px;
+}
+
+.sezioniazzurre .bloccoazzurro {
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+    border-right: 1px solid white;
+}
+
+.bloccoazzurro h4 {
+    font-size: 45px;
+    position: relative;
+    margin: 7px 0;
+}
+
+.bloccoazzurro span {
+    font-size: 20px;
+    font-weight: lighter;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bloccoazzurro p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.primafila {
+    border-bottom: 1px solid white;
+}
+
+.bloccoazzurro:last-child {
+    border-right: none;
 }
 
 /* SECONDO BLOCCO BIANCO*/
