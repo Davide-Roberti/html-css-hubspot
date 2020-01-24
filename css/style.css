@@ -500,6 +500,45 @@ body {
     height: 800px;
 }
 
+.bg-secondobianco .areastatistiche {
+    width: 40%;
+    padding: 100px 160px 100px 65px;
+    color: #3b454f;
+    float: left;
+}
+
+.bg-secondobianco .areastatistiche h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.bg-secondobianco .areastatistiche p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bg-secondobianco .arealoghi {
+    float: right;
+    width: 60%;
+    margin-top: 80px;
+}
+
+.bg-secondobianco .logo-aziendale {
+    float: left;
+    width: 25%;
+    height: 90px;
+    position: relative;
+}
+
+.logo-aziendale img {
+    width: 115.52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /* BLOCCO BLUE */
 
 .bg-blu {
