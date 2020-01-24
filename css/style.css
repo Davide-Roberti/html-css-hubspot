@@ -289,6 +289,56 @@ body {
     padding: 10px 23px;
 }
 
+
+.secondafascia .areascritte li {
+    display: inline-block;
+    color: #364656;
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.secondafascia .areascritte li:first-child {
+    padding-left: 0;
+}
+
+.secondafascia .areascritte i {
+    color: #ff7a59;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.secondafascia .areascritte h4 {
+    color: #364656;
+    padding: 40px 0 15px;
+    font-size: 22px;
+}
+
+.secondafascia .areascritte p {
+    line-height: 23px;
+    font-size: 14px;
+    color: #364656;
+    padding: 0 50px 25px 0;
+}
+
+.popolari {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.secondafascia .areascritte h5 {
+    color: #364656;
+    font-size: 13px;
+}
+
+.areascritte hr {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 450px;
+    display: inline-block;
+    border: 1px solid #e2e6e9;
+}
+
 /* BLOCCO AZZURRO */
 
 .bg-azzurro {
