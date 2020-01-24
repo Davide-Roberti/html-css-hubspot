@@ -494,6 +494,7 @@ body {
 
 .bg-secondobianco {
     background-color: white;
+    padding-bottom: 130px;
 }
 
 
@@ -568,6 +569,16 @@ body {
 .bg-secondobianco .areasinistra .piccolo {
     font-size: 12px;
     color: #88898e;
+}
+
+.bg-secondobianco .areadestra {
+    float: right;
+    object-fit: cover;
+    padding-top: 40px;
+}
+
+.areadestra img {
+    width: 350px;
 }
 
 
