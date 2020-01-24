@@ -228,6 +228,7 @@ body {
 
 .bg-primobianco {
     background-color: #f4f8fb;
+    padding-bottom: 150px;
 }
 
 .bg-primobianco .primafascia {
@@ -337,6 +338,95 @@ body {
     width: 450px;
     display: inline-block;
     border: 1px solid #e2e6e9;
+}
+
+.bg-primobianco .terzafascia {
+    margin: 30px 50px 0;
+}
+
+.terzafascia .carta {
+    width: 33.3333%;
+    float: left;
+}
+
+.carta .content {
+    background-color: white;
+    border: 3px solid #f2f3f7;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.terzafascia .prima {
+    padding-right: 20px;
+}
+
+.terzafascia .seconda {
+    padding: 0 10px;
+}
+
+.terzafascia .terza {
+    padding-left: 20px;
+}
+
+.terzafascia .carta img {
+    width: 162.3px;
+    height: 150px;
+    margin: 27px 0;
+}
+
+.terzafascia .carta h5 {
+    font-size: 22px;
+    color: #364656;
+}
+
+.paragrafocarta {
+    text-align: left;
+}
+
+.paragrafocarta p {
+    font-size: 14px;
+    padding: 15px 35px;
+    color: #364656;
+}
+
+.terzafascia hr {
+    border: 1px solid #e4e5e9;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.terzafascia h6 {
+    font-size: 14px;
+    color: #364656;
+    padding: 15px 0;
+}
+
+.terzafascia li {
+    list-style: none;
+    font-size: 14px;
+    color: #364656;
+}
+
+.terzafascia ul {
+    text-align: left;
+    padding-left: 35px;
+    line-height: 25px;
+}
+
+.terzafascia i {
+    color: #ff7a59;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.terzafascia button {
+    background-color: #ff7a59;
+    border: 1px solid #dc8773;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 10px 23px;
+    margin: 20px 0;
 }
 
 /* BLOCCO AZZURRO */
