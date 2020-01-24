@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* BARRA FISSA */
 .bg-fissa {
     background-color: #f4f8fb;
@@ -587,4 +591,61 @@ body {
 .bg-blu {
     background-color: #32475a;
     height: 700px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: #b6d1e2;
+}
+
+footer a:hover {
+    color: #00b0b0;
+}
+
+.fasciasuperiore-footer {
+    padding-top: 100px;
+}
+
+.elencofooter {
+    float: left;
+    width: 25%;
+}
+
+.elencofooter li {
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.elencofooter h4 {
+    color: white;
+}
+
+.nohover {
+    color: white;
+}
+
+.nohover:hover {
+    color: white;
+}
+
+.logosocial {
+    float: left;
+    padding-right: 25px;
+}
+
+.logosocial a {
+    font-size: 18px;
+}
+
+footer .supporto {
+    margin: 10px 0 25px;
+    color: #32475a;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
 }
