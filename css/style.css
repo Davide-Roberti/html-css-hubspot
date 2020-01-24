@@ -230,12 +230,9 @@ body {
     background-color: #f4f8fb;
 }
 
-.bg-primobianco .container {
-    height: 1000px;
-}
-
 .bg-primobianco .primafascia {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .bg-primobianco .cubi {
@@ -255,6 +252,41 @@ body {
     line-height: 25px;
     color: #72757a;
     padding: 0 150px;
+}
+
+.bg-primobianco .secondafascia {
+    background-color: white;
+    margin-top: 50px;
+    border: 3px solid #f2f3f7;
+    border-radius: 5px;
+    margin: 0 50px;
+}
+
+.bg-primobianco .secondafascia img {
+    width: 160px;
+    padding-bottom: 40px;
+}
+
+.secondafascia .areaimmagine {
+    text-align: center;
+    width: 35%;
+    position: relative;
+    padding-bottom: 65px;
+    padding-top: 50px;
+    float: left;
+}
+
+.secondafascia .areaimmagine button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff7a59;
+    border: 1px solid #dc8773;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 10px 23px;
 }
 
 /* BLOCCO AZZURRO */
