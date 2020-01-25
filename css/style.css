@@ -590,7 +590,6 @@ a {
 
 .bg-blu {
     background-color: #32475a;
-    height: 700px;
 }
 
 footer li {
@@ -652,10 +651,38 @@ footer .supporto {
 
 footer .lingue {
     text-align: center;
-    padding-top: 40px;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #7f97af;
 }
 
 footer .lingue li {
     display: inline-block;
     padding: 15px;
+}
+
+.copyright {
+    float: left;
+}
+
+.legalstuff {
+    float: right;
+}
+
+.legalstuff li{
+    display: inline-block;
+    padding:15px;
+}
+
+.copyright img {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.copyright span {
+    color: #cad6e4;
+    font-size: 12px;
+}
+
+.fascia-inferiore-footer {
+    padding: 25px 0 45px;
 }
