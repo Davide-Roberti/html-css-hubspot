@@ -24,6 +24,33 @@ a {
     text-decoration: none;
 }
 
+.selezione::after {
+    content: "   \025BC";
+    font-size: 14px;
+    color: #7f96b5;
+}
+
+.nohover::after {
+    content: "   \025BC";
+    font-size: 14px;
+    color: white;
+}
+
+.btn-mobile {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+}
+
+.btn-mobile a {
+    background-color: #425c77;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 /* BARRA FISSA */
 .bg-fissa {
     background-color: #f4f8fb;
